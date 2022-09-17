@@ -1,1 +1,4 @@
+ARG interface=bastille0
 PKG opensmtpd
+SYSRC smtpd_enable="YES"
+SERVICE smtpd start
